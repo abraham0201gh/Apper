@@ -1,0 +1,27 @@
+.footer {
+  background: #16ff01;   /* #1e293d */
+  height: 23px;
+  position: absolute;
+  color: #fff;
+  overflow: auto;
+  display: block;
+  width: 100%;
+  text-align: center;
+  margin-top: 55px;
+  overflow-y: scroll;
+  display: block;
+}
+
+
+
+p.bottom, .footer>.bottom {
+  position: fixed;
+  width: 100%;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background: #6a33ff;       /* #6a33ff */
+  padding: 8px;
+  font-weight: 600;
+  margin-bottom: 0px;
+}

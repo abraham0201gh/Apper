@@ -1,0 +1,248 @@
+/* .main-container {
+    position: relative;
+}
+
+.main-row {
+    position: absolute;
+    display: block;
+} */
+
+.main-container {
+    width: 100%;
+    height: 100%;
+    min-height: 140vh; /* minus the height of the footer */
+    margin: 0;
+    border: 0;
+    padding: 0;
+    color: black;
+}
+
+/* div.col-left.col {
+    width: 275px;
+} */
+
+.col-left {
+    height: auto;
+    width: 500px;
+    padding-left: 0px;
+    padding-right: 0Px;
+    margin-top: 25px;
+    margin-left: 0px; 
+}
+
+.jumbotron {
+    height: 450px;
+    width: 230px;
+    padding-top: 10px;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+img {
+    /* background-image: url("/src/public/assets/images/John_Muir_c1902_220px.jpg"); */
+    background-image: url("https://en.wikipedia.org/wiki/John_Muir#/media/File:John_Muir_c1902.jpg");
+    width: "100%";   
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 15px;
+    border-radius: 50%;
+}
+
+.display-3 {
+    font-size: 20px;
+    text-align: center;
+    color: black;
+}
+
+lead1 {
+    font-size: 20px;
+    text-align: left;
+}
+
+.Link {
+    color: rgb(243, 87, 87);
+    margin-top: 15px;
+}
+
+.lead2 {
+    margin-top: 70px;
+    text-align: center;
+}
+
+
+
+/* div.card {
+    height: 350px;
+    width: 200px;
+}
+
+div.card-body {
+    height: 3px;
+    padding: 5px;
+    text-align: center;
+}
+
+div.card-title {
+    margin-bottom: 0px;
+    text-align: center;
+}
+
+img {
+    width: 150px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: -110px;
+}
+
+p.card-text {
+    margin-top: 5px;
+    margin-bottom: 70px;
+}
+
+.Link {
+    color: rgb(0, 100, 42);
+} */
+
+
+.col-center {
+    height: auto;
+    text-align: left;
+    padding-left: 10px;
+    padding-right: 0Px;
+    margin-top: 25px;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+.card-title {
+    text-align: left;
+}
+
+.card-text {
+    text-align: left;
+}
+
+div.card {
+    height: 240px;
+    width: 750px;
+    text-align: left;
+    word-wrap: left;
+    margin-top: 0px;
+    margin-bottom: 15px;
+}
+
+div.card-header {
+    padding-top: 3px;
+    padding-bottom:3px;
+}
+
+div.card-footer {
+    height: 15px;
+    padding: 0px;
+}
+
+.col-right {
+    height: auto;
+    width: 140px;
+    margin-top: 25px;
+    text-align: center;
+}
+
+.rightCard1.card.card-body.border-primary {
+    width: 140px;
+    height: 150px;
+    font-size: 11px;
+}
+
+.rightCard2.card.card-body.border-success {
+    width: 140px;
+    height: 150px;
+    font-size: 11px;
+}
+
+
+
+
+
+@media only screen and (max-width: 980px) {
+
+  }
+  
+  @media only screen and (max-width: 768px) {
+  
+  }
+  
+  @media screen and (max-width: 600px) {
+    
+    .main-container {
+        width: 100%;
+        height: 100%;
+        min-height: 140vh; /* minus the height of the footer */
+        margin-left: 25%;
+    }    
+
+    img {
+        /* background-image: url("/src/public/assets/images/John_Muir_c1902_220px.jpg"); */
+        background-image: url("https://en.wikipedia.org/wiki/John_Muir#/media/File:John_Muir_c1902.jpg");
+        width: "100%";   
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        margin-bottom: 5px;
+        border-radius: 50%;
+    }
+    
+    .display-3 {
+        font-size: 10px;
+        text-align: center;
+        color: black;
+    }
+    
+    lead1 {
+        font-size: 10px;
+        text-align: left;
+    }
+    
+    .Link {
+        color: rgb(243, 87, 87);
+        margin-top: 15px;
+    }
+    
+    .lead2 {
+        margin-top: 40px;
+        text-align: center;
+    }    
+
+
+    .jumbotron {
+        height: 250px;
+        width: 165px;
+        padding-top: 10px;
+        padding-left: 15px;
+        padding-right: 15px;
+    }
+    
+
+    div.card {
+        height: 180px;
+        width: 350px;
+        text-align: left;
+        word-wrap: left;
+        margin-top: 0px;
+        margin-bottom: 15px;
+    }
+    
+    div.card-header {
+        padding-top: 3px;
+        padding-bottom:3px;
+    }
+    
+    div.card-footer {
+        height: 5px;
+        padding: 0px;
+    }
+  }
+  
+  
